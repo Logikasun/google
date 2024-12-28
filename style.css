@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Включає відступи у розрахунок ширини */
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: snow;
+    background-color: #575757;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #797979;
+    z-index: 1;
+}
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    /* Зміна кольору при наведенні */
+}
+
+main {
+    margin-top: 70px;
+    background-image: url("https://learn.logikaschool.com/uploads/student/4722045/67669f18cdb28.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #575757;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    scroll-margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    /* Яскравий заголовок */
+}
+
+article {
+    background-color: rgba(87, 87, 87, 0.85);
+    /* Напівпрозорий фон */
+    color: snow;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+article img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.footer {
+    gap: 20px;
+    padding: 20px;
+    background-color: #575757;
+    color: #E9F1FA;
+    width: 100vw;
+    /* Повна ширина екрану */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p{
+    color: #E9F1FA;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer-author {
+    text-align: center;
+}
